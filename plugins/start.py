@@ -16,9 +16,9 @@ from helper.date import check_expi
 import os
 
 CHANNEL = os.environ.get('CHANNEL', "")
-STRING = os.environ.get("STRING", "")
-ADMIN = int(os.environ.get("ADMIN", 1484670284))
-bot_username = os.environ.get("BOT_USERNAME","msrenamerx_bot")
+STRING = os.environ.get("STRING", "BQCyNwMAlLQT4zsEYRr9wdze4VOs3432TY6SU7v_NZChPnP6memhE6Ci2-dmi6831Xzp_GzHHKAUiQmU_inf3Xto1webM3El1-ac_22fpnL1dN5gXJytcTNOHpPjTYt4ZbGmbZzdTpyn_aJ_sWUhxg3iknvMjKDGZ1vVZRiv6d_NSzXo-nnjtAiQ-vWnzTqlx3GlTF2eieatG6mR_NzX4KXQ04ylbDXloz7EzOUFApjbVnIm6UYJa0zaAwPgAzQHcFREFu2Is6iuKnUMuIlOvYNygLSwyWDD8RZpxpq06KNbJaYhYQZi6XWRNu8gnVj-1I7kZqFHOqQxwUHe_JmDhfB-vcbkuAAAAAFxMeNwAA")
+ADMIN = int(os.environ.get("ADMIN", 6004928770))
+bot_username = os.environ.get("BOT_USERNAME","Kali_Rename_Bot")
 log_channel = int(os.environ.get("LOG_CHANNEL", ""))
 token = os.environ.get('TOKEN', '')
 botid = token.split(':')[0]
@@ -46,14 +46,14 @@ async def start(client, message):
         id = message.text.split(' ')[1]
     except:
         txt=f"""Hello {wish} {message.from_user.first_name } \n\n
-	I am **Ms Renamer Bot from tamil nadu**. You can send me file i will rename it with custom thumbnail & caption support - பெருமைக்குரிய தமிழன்!!!"""
+	I am **Kali Renamer Bot from tamil nadu**. You can send me file i will rename it with custom thumbnail & caption support - பெருமைக்குரிய தமிழன்!!!"""
         await message.reply_photo(photo=LAZY_PIC,
                                 caption=txt,
                                 reply_markup=InlineKeyboardMarkup(
-                                      [[InlineKeyboardButton("🧑🏻‍🦱 Developer 🧑🏻‍🦱", url="https://t.me/mrmalik_offl"),
-                                       InlineKeyboardButton("🚀 Bot Updates 🚀", url='https://t.me/+rN9QCFgIihgyZWM1')],
-                                      [InlineKeyboardButton("📱 My Channel 📱", url='https://t.me/+jXeHXx2s3BFlYzg9'),
-                                       InlineKeyboardButton("💵 For Donation 💵", url='https://te.legra.ph/Payment-01-04')]
+                                      [[InlineKeyboardButton("🧑🏻‍🦱 Developer 🧑🏻‍🦱", url="https://t.me/Kalitgadmin_Bot"),
+                                       InlineKeyboardButton("🚀 Bot Updates 🚀", url='https://t.me/Kali_TG')],
+                                      [InlineKeyboardButton("📱 My Channel 📱", url='https://t.me/TamilRockerz_TR'),
+                                       InlineKeyboardButton("💵 For Donation 💵", url='https://t.me/Kalitgadmin_Bot')]
                                       ]))
         return
     if id:
@@ -63,10 +63,10 @@ async def start(client, message):
                 await message.reply_photo(photo=LAZY_PIC,
                                          caption=txt,
                                          reply_markup=InlineKeyboardMarkup(
-                                             [[InlineKeyboardButton("🧑🏻‍🦱 Developer 🧑🏻‍🦱", url="https://t.me/mrmalik_offl"),
-                                       InlineKeyboardButton("🚀 Bot Updates 🚀", url='https://t.me/+rN9QCFgIihgyZWM1')],
-                                      [InlineKeyboardButton("📱 My Channel 📱", url='https://t.me/+jXeHXx2s3BFlYzg9'),
-                                       InlineKeyboardButton("💵 For Donation 💵", url='https://te.legra.ph/Payment-01-04')]
+                                             [[InlineKeyboardButton("🧑🏻‍🦱 Developer 🧑🏻‍🦱", url="https://t.me/Kalitgadmin_Bot"),
+                                       InlineKeyboardButton("🚀 Bot Updates 🚀", url='https://t.me/Kali_TG')],
+                                      [InlineKeyboardButton("📱 My Channel 📱", url='https://t.me/TamilRockerz_TR'),
+                                       InlineKeyboardButton("💵 For Donation 💵", url='https://t.me/Kalitgadmin_Bot')]
                                       ]))
             except:
                 return
@@ -78,13 +78,13 @@ async def start(client, message):
             uploadlimit(int(id), new_limit)
             await message.reply_text(text=f"""
 	Hello {wish} {message.from_user.first_name }\n\n
-	__I am **Ms Renamer Bot from tamil nadu**. You can send me file i will rename it with custom thumbnail & caption support - பெருமைக்குரிய தமிழன்!!!__
+	__I am **Kali Renamer Bot from tamil nadu**. You can send me file i will rename it with custom thumbnail & caption support - பெருமைக்குரிய தமிழன்!!!__
 	""", reply_to_message_id=message.id,
                                      reply_markup=InlineKeyboardMarkup(
-                                         [[InlineKeyboardButton("🧑🏻‍🦱 Developer 🧑🏻‍🦱", url="https://t.me/mrmalik_offl"),
-                                       InlineKeyboardButton("🚀 Bot Updates 🚀", url='https://t.me/+rN9QCFgIihgyZWM1')],
-                                      [InlineKeyboardButton("📱 My Channel 📱", url='https://t.me/+jXeHXx2s3BFlYzg9'),
-                                       InlineKeyboardButton("💵 For Donation 💵", url='https://te.legra.ph/Payment-01-04')]
+                                         [[InlineKeyboardButton("🧑🏻‍🦱 Developer 🧑🏻‍🦱", url="https://t.me/Kalitgadmin_Bot"),
+                                       InlineKeyboardButton("🚀 Bot Updates 🚀", url='https://t.me/Kali_TG')],
+                                      [InlineKeyboardButton("📱 My Channel 📱", url='https://t.me/TamilRockerz_TR'),
+                                       InlineKeyboardButton("💵 For Donation 💵", url='https://t.me/Kalitgadmin_Bot')]
                                       ]))
     
 
@@ -122,10 +122,10 @@ async def send_doc(client, message):
     except:
         await message.reply_text(text=f"Hello dear {message.from_user.first_name}  **we are currently working on this issue**\n\nPlease try to rename files from your another account.\nBecause this BOT can't rename file sent by some ids.\n\nIf you are an **ADMIN** Don't worry ! here we have a solution for you dear {message.from_user.first_name }.\n\nPlease use \n👉 `/addpremium your_other_userid` 👈 to use premium feautres\n\n",
                                   reply_markup=InlineKeyboardMarkup(
-                                      [[InlineKeyboardButton("🧑🏻‍🦱 Developer 🧑🏻‍🦱", url="https://t.me/mrmalik_offl"),
-                                       InlineKeyboardButton("🚀 Bot Updates 🚀", url='https://t.me/+rN9QCFgIihgyZWM1')],
-                                      [InlineKeyboardButton("📱 My Channel 📱", url='https://t.me/+jXeHXx2s3BFlYzg9'),
-                                       InlineKeyboardButton("💵 For Donation 💵", url='https://te.legra.ph/Payment-01-04')]
+                                      [[InlineKeyboardButton("🧑🏻‍🦱 Developer 🧑🏻‍🦱", url="https://t.me/Kalitgadmin_Bot"),
+                                       InlineKeyboardButton("🚀 Bot Updates 🚀", url='https://t.me/Kali_TG')],
+                                      [InlineKeyboardButton("📱 My Channel 📱", url='https://t.me/TamilRockerz_TR'),
+                                       InlineKeyboardButton("💵 For Donation 💵", url='https://t.me/Kalitgadmin_Bot')]
                                       ]))
         await message.reply_text(text=f"🦋")
         return 
