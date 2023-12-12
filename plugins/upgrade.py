@@ -24,14 +24,14 @@ async def upgrade(bot,update):
 	Price Rs 199  ind /🌎 2.5$  per Month
 	
 	
-	Pay Using Upi I'd ```msmalikoffl@oksbi```
+	Pay Using Upi I'd ```masskali007@pingpay```
 	
 	After Payment Send Screenshots Of 
-        Payment To Admin @mrmalik_offl"""
+        Payment To Admin @Kalitgadmin_Bot"""
 	keybord = InlineKeyboardMarkup([[ 
-        			InlineKeyboardButton("ADMIN 🛂",url = "https://t.me/mrmalik_offl")], 
-        			[InlineKeyboardButton("Paytm",url = "https://te.legra.ph/Payment-01-04"),
-        			InlineKeyboardButton("Paytm",url = "https://te.legra.ph/Payment-01-04")],[InlineKeyboardButton("Cancel",callback_data = "cancel")  ]])
+        			InlineKeyboardButton("ADMIN 🛂",url = "https://t.me/Kalitgadmin_Bot")], 
+        			[InlineKeyboardButton("Paytm",url = "https://t.me/Kalitgadmin_Bot"),
+        			InlineKeyboardButton("Paytm",url = "https://t.me/Kalitgadmin_Bot")],[InlineKeyboardButton("Cancel",callback_data = "cancel")  ]])
 	await update.message.edit(text = text,reply_markup = keybord)
 	
 
@@ -57,12 +57,12 @@ async def upgradecm(bot,message):
 	Price Rs 199  ind /🌎 2.5$  per Month
 	
 	
-	Pay Using Upi I'd ```msmalikoffl@oksbi```
+	Pay Using Upi I'd ```masskali007@pingpay```
 	
 	After Payment Send Screenshots Of 
-        Payment To Admin @mrmalik_offl"""
+        Payment To Admin @Kalitgadmin_Bot"""
 	keybord = InlineKeyboardMarkup([[ 
-        			InlineKeyboardButton("ADMIN 🛂",url = "https://t.me/mrmalik_offl")], 
-        			[InlineKeyboardButton("Paytm",url = "https://te.legra.ph/Payment-01-04"),
-        			InlineKeyboardButton("Paytm",url = "https://te.legra.ph/Payment-01-04")],[InlineKeyboardButton("Cancel",callback_data = "cancel")  ]])
+        			InlineKeyboardButton("ADMIN 🛂",url = "https://t.me/Kalitgadmin_Bot")], 
+        			[InlineKeyboardButton("Paytm",url = "https://t.me/Kalitgadmin_Bot"),
+        			InlineKeyboardButton("Paytm",url = "https://t.me/Kalitgadmin_Bot")],[InlineKeyboardButton("Cancel",callback_data = "cancel")  ]])
 	await message.reply_text(text = text,reply_markup = keybord)
